@@ -43,15 +43,15 @@ button:disabled {
 }
 
 button#nextButton {
-    background-color: #4CAF50;
+    background-color: #C09891;
 }
 
 button#prevButton {
-    background-color: #2196F3;
+    background-color: #C09891;
 }
 
 button#submitButton {
-    background-color: #9C27B0;
+    background-color: #C09891;
 }
 
 button:active {
