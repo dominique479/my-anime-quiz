@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Anime Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Anime Quiz</h1>
+        <p id="question">Loading...</p>
+        <div id="answers">
+            <!-- The answers will be dynamically injected here -->
+        </div>
+
+        <div id="controls">
+            <button id="prevButton" onclick="prevQuestion()" style="display:none;">Previous</button>
+            <button id="restartButton" onclick="restartQuiz()">Restart</button>
+            <button id="submitButton" onclick="submitQuiz()" disabled>Submit</button>
+            <button id="nextButton" onclick="nextQuestion()">Next</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
